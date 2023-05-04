@@ -1,7 +1,7 @@
 
-# EigenCAM for YOLO V8
+# EigenCAM for YOLO V8 Interpretability
 
-A package for applying EIgenCAM on the new YOLO V8 model. Simply clone the package and import the modules to get started.
+A package for applying EigenCAM on the new YOLO V8 model. Simply clone the package and import the modules to get started.
 
 It has been derived from [Jacob Gil's package for AI explainability](https://github.com/jacobgil/pytorch-grad-cam) and modified to be used for the YOLO V8 model.
 
