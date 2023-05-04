@@ -15,15 +15,29 @@ It can currently be used for YOLO V8 Classification and Object Detection models.
 ## What is EigenCAM
 EigenCAM is a technique that involves computing the first principle component of the 2D activations in a neural network, without taking class discrimination into account, and has been found to produce effective results.
 
-#### Images:
+#### Image:
+
+<img src="images/puppies.jpg" alt="puppies" width="240" height="240">
 
 
 #### GrayScale Heatmaps:
 
+| Object Detection  | Classification  |
+| -------- | -------- |
+| ![od3.png](images/od3.png)  | ![cls3.png](images/cls3.png) |
 
-### Classification model
+#### Combined
+
+| Object Detection  | Classification  |
+| -------- | -------- |
+| ![od1.png](images/od1.png)  | ![cls1.png](images/cls1.png) |
 
 ### Object Detection model
+![od1.png](images/od2.png)
+
+### Classification model
+![od1.png](images/cls2.png)
+
 
 
 ## Getting Started
