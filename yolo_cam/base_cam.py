@@ -79,7 +79,9 @@ class BaseCAM:
             if self.task == 'od':
                 target_categories = outputs[0].boxes.cls
             elif self.task == 'cls':
-                target_categories = [np.argmax(outputs[0].probs.cpu().numpy())]
+                # Change
+                # target_categories = [np.argmax(outputs[0].probs.cpu().numpy())]
+                target_categories = outputs[0].probs.top5
             else:
                 print('not ok')
             targets = [ClassifierOutputTarget(
