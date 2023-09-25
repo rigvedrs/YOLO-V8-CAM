@@ -109,7 +109,7 @@ class BaseCAM:
 
     def get_target_width_height(self,
                                 input_tensor: np.array) -> Tuple[int, int]:
-        width, height = np.shape(input_tensor)[0],np.shape(input_tensor)[1]
+        height, width = np.shape(input_tensor)[0],np.shape(input_tensor)[1]
         return width, height
 
     def compute_cam_per_layer(
