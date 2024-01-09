@@ -83,7 +83,7 @@ class BaseCAM:
                 # target_categories = [np.argmax(outputs[0].probs.cpu().numpy())]
                 target_categories = outputs[0].probs.top5
             else:
-                print('not ok')
+                print('Invalid Task Entered')
             targets = [ClassifierOutputTarget(
                 category) for category in target_categories]
 

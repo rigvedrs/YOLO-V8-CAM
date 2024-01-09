@@ -21,21 +21,24 @@ EigenCAM is a technique that involves computing the first principle component of
 
 #### GrayScale Heatmaps:
 
-| Object Detection  | Classification  |
-| -------- | -------- |
-| ![od3.png](images/od3.png)  | ![cls3.png](images/cls3.png) |
+| Object Detection  | Classification  | Segmentation  |
+| -------- | -------- | -------- |
+| ![od3.png](images/od3.png)  | ![cls3.png](images/cls3.png) | ![seg3.png](images/seg3.png) |
 
 #### Combined
 
-| Object Detection  | Classification  |
-| -------- | -------- |
-| ![od1.png](images/od1.png)  | ![cls1.png](images/cls1.png) |
+| Object Detection  | Classification  | Segmentation  |
+| -------- | -------- | -------- |
+| ![od1.png](images/od1.png)  | ![cls1.png](images/cls1.png) | ![cls1.png](images/seg1.png) |
 
 ### Object Detection model
-![od1.png](images/od2.png)
+![od2.png](images/od2.png)
 
 ### Classification model
-![od1.png](images/cls2.png)
+![cls2.png](images/cls2.png)
+
+### Segmentation model
+![cls2.png](images/cls2.png)
 
 
 
