@@ -28,6 +28,7 @@ class BaseCAM:
         self.uses_gradients = uses_gradients
         self.activations_and_grads = ActivationsAndGradients(
             self.model, target_layers, reshape_transform)
+        self.outputs = []
         
     """ Get a vector of weights for every channel in the target layer.
         Methods that return weights channels,
@@ -74,6 +75,7 @@ class BaseCAM:
 #                                                    requires_grad=True)
 
         outputs = self.activations_and_grads(input_tensor)
+        self.outputs.append(outputs[0])
         if targets is None:
 #             target_categories = np.argmax(outputs[0].cpu().data.numpy(), axis=-1)
             if self.task == 'od':
