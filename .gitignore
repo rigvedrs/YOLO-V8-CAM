@@ -1,3 +1,7 @@
 .ipynb_checkpoints/
 yolo_cam/__pycache__
 yolo_cam/.ipynb_checkpoints
+yolo_cam/utils/__pycache__
+
+models/*
+!models/.gitkeep
